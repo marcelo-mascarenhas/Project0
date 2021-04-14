@@ -1,4 +1,4 @@
-/*Some margin/color/font-size/font-type were extracted from google's site itself*/
+/*Some margin/color/font-size/font-type were extracted from google's site*/
 
 *{
   box-sizing: border-box;
@@ -25,6 +25,11 @@ a:hover{
   border-style: none;
   text-decoration: underline;
 }
+#ax{
+  padding-right: 163px;
+  color: #777;
+
+}
 
 #search-bar:active {
   border: transparent;
@@ -37,6 +42,8 @@ a:hover{
   font-size-adjust: none
 
 }
+
+
 
 #f1{
   border-top: 1px solid #dadce0;
@@ -56,6 +63,14 @@ a:hover{
   justify-content: flex-end;
   padding: 0px 20px 0px 0px;
   user-select: none;
+}
+
+#header-properties-as{
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 0px;
+  user-select: none;
+  background-color: #f1f1f1;
 }
 
 #lucky-button{
@@ -95,6 +110,19 @@ a:hover{
   padding-right: 18px;
 }
 
+#sb{
+  width: 120px;
+  height: 36px;
+  padding: 2px;
+  background-color: #4d90fe;
+  border: transparent;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  margin-left: 650px;
+
+}
+
 #sib{
   width: 120px;
   height: 36px;
@@ -115,11 +143,28 @@ a:hover{
 }
 
 
+.body-advanced-search{
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: left;
+}
 
 .body-search{
   justify-content:center;
   flex-direction: column;
   align-items: center;
+}
+
+.body1{
+  
+  margin-top: 15px;
+  padding-left: 20px;
+  color: rgb(182, 28, 28);
+  font-size: larger;
+  height: 5vh;
+  border-bottom: solid gainsboro 0.5px;
+
+
 }
 
 .button{
@@ -138,6 +183,14 @@ a:hover{
 
 }
 
+.did{
+  margin: 20px;
+  height: 50px;
+  width: 1200px;
+  display:flex;
+  justify-content: space-between;
+  font-size: large;
+}
 .grid-container{
   display:grid;
   grid-template-rows: 6vh 84vh 5vh 5vh; 
@@ -156,7 +209,10 @@ a:hover{
   justify-content: space-between;
   font-size: 16px;
   user-select: none;
+}
 
+.logo-adv{
+  padding-left: 20px;
 }
 
 .search-bar{
@@ -170,6 +226,63 @@ a:hover{
   outline: 0;
 }
 
-@media only screen and (max-width: 480px){
+
+
+.tx{
+  height: 50px;
+  width:400px;  
+}
+
+.zearch{
+  height: 25px;
+  padding: 1px 8px;
+  width: 300px;  
+  border: 1px solid #d9d9d9;
+}
+
+
+
+/*Just testing/learning a little bit about media queries*/
+@media only screen and (max-width: 950px){
+  .grid-container{
+    grid-template-rows: 10vh 120vh 10vh 10vh;
+  }
+  #main-part{
+    margin-bottom: 20px;
+   }
+}
+
+@media only screen and (max-width: 500px){
+
+  #header-properties{
+    margin-bottom: 20px;
+  }
+
+  #main-part{
+    margin-bottom: 20px;
+   }
+   
+   #search-field-style{
+    font-size: xx-small;
+    height: 12px;
+    width: 230px;
+    margin-bottom: auto;
+    padding-bottom: 2px;
+  
+  }
+   .grid-container{
+    grid-template-rows: 30vh 120vh 50vh 50vh;
+  }
+
+   .search-bar{
+    height: 30px;
+    display:flex;
+    justify-content: start;
+    width: 300px;
+    border-radius: 22px;
+    border: 0.5px solid gainsboro;
+    padding: 10px 10px 10px 20px;
+    outline: 0;
+  }
 
 }
