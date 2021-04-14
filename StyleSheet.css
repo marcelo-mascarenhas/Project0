@@ -46,6 +46,10 @@ a:hover{
 #google-logo{
   margin-bottom: 30px;
 }
+#google-logo-im{
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
 
 #header-properties{
   align-items: center;
@@ -65,7 +69,13 @@ a:hover{
 }
 #mag-glass{
   margin-right: 5px;
+  border:transparent;
+  outline:0;
   
+}
+
+#mic{
+  margin-left: 10px;
 }
 
 #search-field-style{
@@ -77,6 +87,7 @@ a:hover{
   height: 25px;
   width: 487px;
   margin-bottom: auto;
+  padding-bottom: 5px;
 
 }
 
@@ -94,6 +105,16 @@ a:hover{
   border-radius: 5px;
   text-decoration: none;
 }
+#text{
+  position: relative;
+  float: unset;
+  color:#4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: -60px;
+  top: -7px;
+}
+
+
 
 .body-search{
   justify-content:center;

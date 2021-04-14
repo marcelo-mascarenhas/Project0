@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
       
       <link rel = "stylesheet" href="StyleSheet.css">
       <meta name="viewport" content="width-device-width, initial-scale=1.0">
-      <title>Search</title>
+      <title>Images</title>
 
   </head>
   <body>
@@ -14,41 +14,32 @@
       <header id = "header-properties" class="flex-container">
         <nav>
           <ul>
-            <li><a href="#">Advanced Search</a></li>
-            <li><a href="image.html">Images</a></li>
+            <li><a href="index.html">Google Search</a></li>
             <li><a id="sib" href="https://accounts.google.com/signin/v2/identifier?hl=pt-BR&passive=true&continue=https%3A%2F%2Fwww.google.com.br%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a></li>
           </ul>
         </nav>
       </header>
      
       <main class="flex-container body-search">
+        <div id="google-logo-im"><img src ="GoogleLogo.png" alt = "Logo"><span id="text">Images</span></div>
         
-        <div id="google-logo"><img src ="GoogleLogo.png" alt = "Logo"></div>
-
-        <form id="main-part" action="https://google.com/search" autocomplete = "off">
-          
-
+        <form id="main-part" action="https://google.com/images" autocomplete = "off">
+        
         <div class="search-bar">
           
           <img id ="mag-glass" src ="mag-glass.jpg" alt ="lupa">
           
+          
           <input id= "search-field-style" type="text" name="q">
-
-          <img id ="gomic" src ="gomic.png" alt ="lupa">
+                    
+          <input id ="mag-glass" type="image" src ="bluemag.png" alt ="lupa">
           
         </div>
           
-          <div class="flex-container button-layout">
-            
-            <input class= "button" type="submit" value="Google Search">
-            
-            <input id = "lucky-button" class= "button" type="submit" value="I'm Feeling Lucky" name="btnI">
-         
-          </div>
         
-        </form>
+      </form>
 
-      </main>
+    </main>
       
       <footer class="flex-container footers">
 
